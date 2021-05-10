@@ -1,17 +1,131 @@
+/* 
+* Site design by Dyk Media, 2021, https://dyk.media
+* For website design ranging from Wordpress to custom front/back-end development 
+*/
+
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300;400;500&display=swap");
+
+/* 
+* font-family: 'Playfair Display', serif;
+* font-family: 'Quicksand', sans-serif; font weight: 300, 400
+*
+*/
+
 /* General styling */
+/* General Fonts */
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+
+/* Navbar styling */
+.navbar {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
 /* Heading styling */
+header h1 {
+  font-family: "Playfair Display", serif;
+}
 .login,
 .intro {
   /* code comes here */
 }
+
 .intro-slider-row {
-  height: 30vh;
+  background: url(../media/intro-heading1.png);
+  background-size: cover;
+  background-position: center bottom;
+  height: 60vh;
+  -webkit-filter: grayscale(84%);
+  filter: grayscale(84%);
+}
+
+.intro-slider-row h2 {
+  font-family: "Playfair Display", serif;
+  color: #000;
+  text-shadow: 0px 2px 3px #ffffffa1;
+  font-size: 50px;
 }
 
 /* Store sections styling */
 .jewelry-col {
   margin: 10px;
   height: 300px;
+}
+
+.card1 {
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(0 0 0 / 45%)),
+    url(../media/shop-categories/jewelry.jpg.png);
+  height: 300px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.card2 {
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(0 0 0 / 45%)),
+    url(../media/shop-categories/fun-fashion.png);
+  height: 300px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.card3 {
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(0 0 0 / 45%)),
+    url(../media/shop-categories/clothing.png);
+  height: 300px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.card4 {
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(0 0 0 / 45%)),
+    url(../media/shop-categories/accessoiries.png);
+  height: 300px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.card5 {
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(0 0 0 / 45%)),
+    url(../media/shop-categories/ornaments.png);
+  height: 300px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.card6 {
+  background: linear-gradient(rgb(255 255 255 / 45%), rgb(0 0 0 / 45%)),
+    url(../media/shop-categories/homeware.png);
+  height: 300px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #000;
+  text-shadow: 0px 0px 3px #ffffffa1;
+  font-size: 50px;
 }
 
 /* About section styling */
@@ -25,3 +139,7 @@
   display: inline;
 }
 /* Heading nav styling */
+nav {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+}
