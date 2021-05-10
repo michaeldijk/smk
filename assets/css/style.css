@@ -1,0 +1,16 @@
+/* General styling */
+/* Heading styling */
+.login,
+.intro {
+  /* code comes here */
+}
+.intro-slider-row {
+  height: 30vh;
+}
+
+/* Store sections styling */
+.jewelry-col {
+  margin: 10px;
+  height: 300px;
+}
+/* Heading nav styling */
