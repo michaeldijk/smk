@@ -13,4 +13,15 @@
   margin: 10px;
   height: 300px;
 }
+
+/* About section styling */
+.about-intro-col {
+  height: 200px;
+  margin: 10px;
+}
+
+/* Newsletter section styling */
+.newsletter-h2 {
+  display: inline;
+}
 /* Heading nav styling */
