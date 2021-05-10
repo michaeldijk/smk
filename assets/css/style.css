@@ -28,10 +28,6 @@ body {
 header h1 {
   font-family: "Playfair Display", serif;
 }
-.login,
-.intro {
-  /* code comes here */
-}
 
 .intro-slider-row {
   background: url(../media/intro-heading1.png);
@@ -129,9 +125,14 @@ h3 {
 }
 
 /* About section styling */
-.about-intro-col {
-  height: 200px;
-  margin: 10px;
+.about-into-container {
+  background-color: #fffaf1;
+}
+
+.about-intro-image {
+  width: 440px;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* Newsletter section styling */
