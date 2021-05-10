@@ -15,6 +15,13 @@ For website design ranging from Wordpress to custom front/back-end development -
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
 
     <!-- Own magical CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -163,10 +170,22 @@ For website design ranging from Wordpress to custom front/back-end development -
         <div class="container-fluid bg-success">
           <!-- start inner container -->
           <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-6">Image here</div>
+            <div class="row align-items-center">
               <div class="col-sm-12 col-md-6">
-                Heading text, Paragraph text here
+                <div class="row align-items-center text-center">
+                  <div class="col about-intro-col bg-primary">
+                    About Intro Image
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <h2>Welcome to my store!</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima, magnam. Ut pariatur fuga ex excepturi voluptate,
+                  ducimus tempore consectetur tempora quia voluptas non enim
+                  unde quod fugiat perferendis praesentium quae?
+                </p>
               </div>
             </div>
           </div>
@@ -182,7 +201,27 @@ For website design ranging from Wordpress to custom front/back-end development -
           <!-- start inner-container -->
           <div class="container">
             <div class="row">
-              <div class="col-12">Newletter here</div>
+              <div class="col-12 text-center">
+                <h2 class="newsletter-h2">Subscribe to our newsletter</h2>
+                <input
+                  type="email"
+                  id="mail"
+                  class="input-group-field"
+                  aria-label="your-email@example.com"
+                  autocorrect="off"
+                  autocapitalize="off"
+                  name="contact[email]"
+                />
+                <span class="input-group-btn">
+                  <input
+                    type="submit"
+                    class="btn caps"
+                    name="subscribe"
+                    id="subscribe"
+                    value="Join"
+                  />
+                </span>
+              </div>
             </div>
           </div>
           <!-- End inner-container -->
@@ -198,16 +237,66 @@ For website design ranging from Wordpress to custom front/back-end development -
         <div class="container">
           <!-- start first row (quick links, follow-us, contact us) -->
           <div class="row">
-            <div class="col-sm-12 col-md-4 bg-secondary">Column #1</div>
-            <div class="col-sm-12 col-md-4 bg-primary">Column #2</div>
-            <div class="col-sm-12 col-md-4 bg-success">Column #3</div>
+            <div class="col-sm-12 col-md-4 bg-secondary">
+              <h3>Quick Links</h3>
+              <ul>
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Gift Cards</li>
+                <li>Login</li>
+                <li>Register</li>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 bg-primary">
+              <h3>Follow Us</h3>
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter-square"></i>
+            </div>
+            <div class="col-sm-12 col-md-4 bg-success">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>
+                  <i class="fas fa-home"></i>
+                  <span
+                    ><em>Address :</em> Unit 5 Emmet House,<br />
+                    Barrack Square, <br />
+                    Ballincollig, <br />
+                    Cork
+                  </span>
+                </li>
+                <li>
+                  <i class="fas fa-phone-alt"></i>
+                  <span
+                    ><em>Office Tel :</em>
+                    <a href="tel: (021) 240 9045">021 240 9045</a>
+                  </span>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <span
+                    ><em>Email :</em>
+                    <a href="mailto:info@thedigitaldepartment.ie"
+                      >info@thedigitaldepartment.ie</a
+                    ></span
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
           <!-- End first row (quick links, follow-us, contact us) -->
           <!-- start second row (copyright, payment icons) -->
           <div class="row">
-            <div class="col-sm-12 col-md-4 bg-info">Copyright here</div>
+            <div class="col-sm-12 col-md-4 bg-info">
+              <i class="fab fa-cc-amex"></i>
+              <i class="fab fa-cc-mastercard"></i>
+              <i class="fab fa-cc-paypal"></i>
+              <i class="fab fa-cc-visa"></i>
+            </div>
             <div class="col-sm-12 col-md-4 offset-md-4 bg-dark">
-              Payment icons here
+              <p>
+                Copyright 2021, Stone Mad Kinsale - Site design by Dyk Media
+              </p>
             </div>
           </div>
           <!-- End second row (copyright, payment icons) -->
